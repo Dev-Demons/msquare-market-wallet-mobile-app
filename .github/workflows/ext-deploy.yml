@@ -1,0 +1,136 @@
+##
+##
+## Name of the CI/CD Pipeline displayed while execution
+##
+##
+name: CI CD Pipeline for Distribution to External Developers & Google Play
+
+##
+##
+## This is the trigger which will initiate our workflow
+##
+##
+
+on:
+##
+##
+## We are initializing workflow whenever we push new code to our main branch
+##
+##
+  push:
+    branches:
+      - 'main'
+  workflow_dispatch:
+
+##
+##
+## These are the environment variable we need for application signing,
+## Environment Variables should not be exposed hence they are saved as github Secrets
+##
+##
+
+env:
+  KEY_JKS: ${{ secrets.KEY_JKS }}
+  KEY_PASSWORD: ${{ secrets.ALIAS_PASSWORD }}
+  ALIAS_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+
+##
+##
+## This is a job in our workflow, the name of job is "build-deploy"
+##
+##
+jobs:
+  build-deploy:
+
+##
+##
+## This is the OS on which we would like to run our job, we can choose windows, macOS or Linux
+##
+##
+    runs-on: ubuntu-latest
+
+
+    steps:
+
+##
+##
+## In this step, we checkout our MSQ-Wallet-App repo on our Machine
+##
+##
+      - uses: actions/checkout@v3
+##
+##
+## This step is used to download JAVA Binaries for making flutter work and also sign the apk file
+##
+##
+      - uses: actions/setup-java@v2
+        with:
+          distribution: "zulu"
+          java-version: "12.x"
+
+##
+##
+## This step is used add google-services.json, firebase_options.dart files to our project, 
+## remember we cannot push this file into repo for security reasons,
+## 
+      - name: Decode google-services.json
+        env: 
+            GOOGLE_SERVICES_JSON: ${{ secrets.GOOGLE_SERVICES_JSON }}
+        run: echo "$GOOGLE_SERVICES_JSON" > android/app/google-services.json
+      - name: Decode firebase_option
+        env:
+          firebase_options_dart: ${{secrets.FIREBASE_OPTION}}
+        run: echo "$firebase_options_dart" > lib/firebase_options.dart
+      - name: GENERATE API ENDPOINTS FILE
+        env:
+          end_points: ${{secrets.END_POINTS_STG}}
+        run: echo "$end_points" > lib/v2/constants/api_endpoints.dart
+            # Decoding base64 key into a file
+      - name: Decode Base64 key
+        run: echo "${{ secrets.KEYSTORE2 }}" | base64 --decode > android/upload-keystore.jks
+      - name: Make Key Properties File
+        run: echo "${{ secrets.KEY_PROPERTIES }}" > android/key.properties
+        
+##
+##
+## Configuring the flutter environment
+##
+##
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: "3.3.4"
+          channel: "stable"
+##
+##
+## Fetching flutter dependencies and building a release apk file
+##
+##
+      - run: flutter pub get
+      - run: flutter build apk --release
+##
+##
+## Checking the latest commit message for following keywords:
+## "dev-release" == to ditribute the apk file to developers only
+## "internal-release" == to distribute the apk file to internal developers
+## Otherwise only upload the artifact as a result of this action run
+##
+##
+      - if: contains(github.event.head_commit.message, 'release')
+        uses: wzieba/Firebase-Distribution-Github-Action@v1
+        with:
+            appId: ${{secrets.APP_ID}}
+            # token: ${{secrets.TOKEN}} method was deprecated
+            serviceCredentialsFileContent: ${{ secrets.CREDENTIAL_FILE_CONTENT }}
+            groups: internal-group, external-group, developer-group
+            file: build/app/outputs/flutter-apk/app-release.apk
+
+##
+##
+## We are uploading the generated artifact so it is accessible to us anytime when we comeback to a specific Action which was run
+## This step is important because if in future we need to see a past version of app, we won't need to revert code and re-compile again
+##
+##
+      - uses: actions/upload-artifact@v2
+        with:
+          name: release-apk
+          path: build/app/outputs/apk/release/app-release.apk

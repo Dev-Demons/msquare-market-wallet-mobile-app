@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "856501745639",
+    "project_id": "msq-wallet",
+    "storage_bucket": "msq-wallet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856501745639:android:e6662ec2873984dee4af42",
+        "android_client_info": {
+          "package_name": "com.apptester.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856501745639-3fdbb4qm6i7elgvt5bvdeomcrrdnihg6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.apptester.app",
+            "certificate_hash": "db727c0580e7c9766011e67ef95bcdc5d19c3113"
+          }
+        },
+        {
+          "client_id": "856501745639-9d54eiifvcseuao1mf3sv3lpr6sq6sti.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.apptester.app",
+            "certificate_hash": "b56eb49ec3c6e3c0d06345af0229fd720c68132f"
+          }
+        },
+        {
+          "client_id": "856501745639-76et6dph3qd7jn69dbvgaahg3a8u591q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB6XSHDbDmjf80b6N7P_Km9I6ldLHPBfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "856501745639-76et6dph3qd7jn69dbvgaahg3a8u591q.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "856501745639-oc4i3sm9kl5mda65jebavs9eeoqb0jrh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.apptester.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,426 @@
+{
+  "project_info": {
+    "project_number": "856501745639",
+    "project_id": "msq-wallet",
+    "storage_bucket": "msq-wallet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856501745639:android:fe76944fe48ab1cae4af42",
+        "android_client_info": {
+          "package_name": "com.msquare.market.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856501745639-1a6tlmahnmsm4dfnmqdoi2qt02pbjgb2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.msquare.market.app",
+            "certificate_hash": "b56eb49ec3c6e3c0d06345af0229fd720c68132f"
+          }
+        },
+        {
+          "client_id": "856501745639-3lfg83jtcvahdnb8p9linn8fvp0n0f85.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.msquare.market.app",
+            "certificate_hash": "82f94445b4eed88594c16eaba4e44d0d312d33fa"
+          }
+        },
+        {
+          "client_id": "856501745639-4trdlh8f3ae95sogp07ohlka9438m1si.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.msquare.market.app",
+            "certificate_hash": "db727c0580e7c9766011e67ef95bcdc5d19c3113"
+          }
+        },
+        {
+          "client_id": "856501745639-7lcl4ja2ddf1n1hnqq4tcpsi0mumti81.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.msquare.market.app",
+            "certificate_hash": "932e021a4956d4bae4731e583f4cd0093db66514"
+          }
+        },
+        {
+          "client_id": "856501745639-bl9godpmqon2nmlrg849tle5k2bikh3l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.msquare.market.app",
+            "certificate_hash": "c7100bf719014d1b1ed1d34bec72c8f9547af7e6"
+          }
+        },
+        {
+          "client_id": "856501745639-dcu2prqtaceevp0lgbpq8srqeqi4fbde.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.msquare.market.app",
+            "certificate_hash": "d59bc1ebc71b5d91a8d1dd1739befd30a4dbaceb"
+          }
+        },
+        {
+          "client_id": "856501745639-enkmgi0qnp733j355t81ccp65t3n0kat.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.msquare.market.app",
+            "certificate_hash": "d29936a10086e87499981f43d21b86f216c476f3"
+          }
+        },
+        {
+          "client_id": "856501745639-fs2edcp7j0t173rrn052pj6hkajeve47.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.msquare.market.app",
+            "certificate_hash": "6eaed4157748434d518a4c9b1eaa6211d99826f3"
+          }
+        },
+        {
+          "client_id": "856501745639-pu0jqdup4ai3vbafvll49sp3ifmu3foa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.msquare.market.app",
+            "certificate_hash": "4e427b2da4cad38791d1b7b3a79db9f291b5c141"
+          }
+        },
+        {
+          "client_id": "856501745639-76et6dph3qd7jn69dbvgaahg3a8u591q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB6XSHDbDmjf80b6N7P_Km9I6ldLHPBfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "856501745639-76et6dph3qd7jn69dbvgaahg3a8u591q.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "856501745639-0ktmk6hcbfifrobkp6bg30n0ra4eq4l9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "kr.p2u.wallet.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856501745639:android:cfbaed070c599e28e4af42",
+        "android_client_info": {
+          "package_name": "com.msquare.market.app.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856501745639-3jnm5c5qlkijlere43b1fqdhc0q0163g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.msquare.market.app.dev",
+            "certificate_hash": "c7100bf719014d1b1ed1d34bec72c8f9547af7e6"
+          }
+        },
+        {
+          "client_id": "856501745639-f4fpd1n09476s25daa4mk65vvp4vcjog.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.msquare.market.app.dev",
+            "certificate_hash": "82f94445b4eed88594c16eaba4e44d0d312d33fa"
+          }
+        },
+        {
+          "client_id": "856501745639-76et6dph3qd7jn69dbvgaahg3a8u591q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB6XSHDbDmjf80b6N7P_Km9I6ldLHPBfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "856501745639-76et6dph3qd7jn69dbvgaahg3a8u591q.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "856501745639-0ktmk6hcbfifrobkp6bg30n0ra4eq4l9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "kr.p2u.wallet.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856501745639:android:f2f70c84ef999aa5e4af42",
+        "android_client_info": {
+          "package_name": "com.msquare.market.app.stg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856501745639-eqsiqee7vv0rjdvuickvhgasfat4045c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.msquare.market.app.stg",
+            "certificate_hash": "c7100bf719014d1b1ed1d34bec72c8f9547af7e6"
+          }
+        },
+        {
+          "client_id": "856501745639-76et6dph3qd7jn69dbvgaahg3a8u591q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB6XSHDbDmjf80b6N7P_Km9I6ldLHPBfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "856501745639-76et6dph3qd7jn69dbvgaahg3a8u591q.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "856501745639-0ktmk6hcbfifrobkp6bg30n0ra4eq4l9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "kr.p2u.wallet.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856501745639:android:82115ecd19ea49a2e4af42",
+        "android_client_info": {
+          "package_name": "kr.p2u.wallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856501745639-1tadge70bh7fmk9evpefkj293jagg21n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.p2u.wallet",
+            "certificate_hash": "6eaed4157748434d518a4c9b1eaa6211d99826f3"
+          }
+        },
+        {
+          "client_id": "856501745639-3e91i1p227ih7iqf8dg1u4ffqttcugee.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.p2u.wallet",
+            "certificate_hash": "d59bc1ebc71b5d91a8d1dd1739befd30a4dbaceb"
+          }
+        },
+        {
+          "client_id": "856501745639-47nrrp62jrnjkiil0odo89f0a3m1tltn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.p2u.wallet",
+            "certificate_hash": "c7100bf719014d1b1ed1d34bec72c8f9547af7e6"
+          }
+        },
+        {
+          "client_id": "856501745639-49cc4f7thq85df55lku438d4s4vcfej3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.p2u.wallet",
+            "certificate_hash": "1cbeac1cae1979cb92e936ad68d74bc8c924b163"
+          }
+        },
+        {
+          "client_id": "856501745639-92sjsf2i3o5jlou5vsdm2rspmpu69aul.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.p2u.wallet",
+            "certificate_hash": "82f94445b4eed88594c16eaba4e44d0d312d33fa"
+          }
+        },
+        {
+          "client_id": "856501745639-m8qjroeunrsl589478m2mcnhqujrifc5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.p2u.wallet",
+            "certificate_hash": "db727c0580e7c9766011e67ef95bcdc5d19c3113"
+          }
+        },
+        {
+          "client_id": "856501745639-muma6532tbjpallh89oohubf2094egpv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.p2u.wallet",
+            "certificate_hash": "4e427b2da4cad38791d1b7b3a79db9f291b5c141"
+          }
+        },
+        {
+          "client_id": "856501745639-piqj0cm4die826o2hbgufuplk71acq2b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.p2u.wallet",
+            "certificate_hash": "b56eb49ec3c6e3c0d06345af0229fd720c68132f"
+          }
+        },
+        {
+          "client_id": "856501745639-vqmjno3o02pmocp5uoei9jjhm3o3f3mu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.p2u.wallet",
+            "certificate_hash": "932e021a4956d4bae4731e583f4cd0093db66514"
+          }
+        },
+        {
+          "client_id": "856501745639-76et6dph3qd7jn69dbvgaahg3a8u591q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB6XSHDbDmjf80b6N7P_Km9I6ldLHPBfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "856501745639-76et6dph3qd7jn69dbvgaahg3a8u591q.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "856501745639-0ktmk6hcbfifrobkp6bg30n0ra4eq4l9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "kr.p2u.wallet.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856501745639:android:9141f7347e6fbfa2e4af42",
+        "android_client_info": {
+          "package_name": "kr.p2u.wallet.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856501745639-jfp4hrskijeb371524sehk8ns80l92vs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.p2u.wallet.dev",
+            "certificate_hash": "b56eb49ec3c6e3c0d06345af0229fd720c68132f"
+          }
+        },
+        {
+          "client_id": "856501745639-kf9becsu4fcp4dukgbeasnpi0eta37hg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.p2u.wallet.dev",
+            "certificate_hash": "c7100bf719014d1b1ed1d34bec72c8f9547af7e6"
+          }
+        },
+        {
+          "client_id": "856501745639-76et6dph3qd7jn69dbvgaahg3a8u591q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB6XSHDbDmjf80b6N7P_Km9I6ldLHPBfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "856501745639-76et6dph3qd7jn69dbvgaahg3a8u591q.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "856501745639-0ktmk6hcbfifrobkp6bg30n0ra4eq4l9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "kr.p2u.wallet.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856501745639:android:74ba2bac47037bb3e4af42",
+        "android_client_info": {
+          "package_name": "kr.p2u.wallet.stg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856501745639-nha2irflrv50udolfi04jslk7lovgvnf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.p2u.wallet.stg",
+            "certificate_hash": "b56eb49ec3c6e3c0d06345af0229fd720c68132f"
+          }
+        },
+        {
+          "client_id": "856501745639-p69179rplu6behcohel4nou5inm7a5l4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.p2u.wallet.stg",
+            "certificate_hash": "c7100bf719014d1b1ed1d34bec72c8f9547af7e6"
+          }
+        },
+        {
+          "client_id": "856501745639-76et6dph3qd7jn69dbvgaahg3a8u591q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB6XSHDbDmjf80b6N7P_Km9I6ldLHPBfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "856501745639-76et6dph3qd7jn69dbvgaahg3a8u591q.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "856501745639-0ktmk6hcbfifrobkp6bg30n0ra4eq4l9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "kr.p2u.wallet.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

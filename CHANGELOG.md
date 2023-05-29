@@ -1,0 +1,240 @@
+- Design Improvements
+- added changelog
+- ME-234, ME-235
+- Legacy Code has been removed, changelog was added to readme file.
+- Legacy Code has been removed, app has been refactored.
+- ME-227,ME-228,ME-229,ME-201,ME-230,
+- ME-227,ME-228,ME-229,ME-201,ME-230,
+- imad fixed qr code etc
+- imad fixed qr code etc
+- merged both branches and fixed wallet screen.
+- deleted zip file(large size)
+- imad fixed auth flow
+- Added Vector Image in Initial screen
+- scan auth done, auth header done
+- Merge branch 'v0.7.0' of https://github.com/globalmsq/msquare-market-wallet-mobile-app into v0.7.0
+- logut issue resolved
+- Update .gitignore
+- Appbar UI Changes
+- Language Localizations
+- Working on my wallet screen
+- Merge branch 'v0.7.0' of https://github.com/globalmsq/msquare-market-wallet-mobile-app into v0.7.0
+- logut issue resolved
+- Language Selection Widget
+- Merge branch 'v0.7.0' of https://github.com/globalmsq/msquare-market-wallet-mobile-app into v0.7.0
+- History Screen Configuration
+- changed action flow removed testing
+- changed java version
+- Language Mapping
+- Merge branch 'v0.7.0' of https://github.com/globalmsq/msquare-market-wallet-mobile-app into v0.7.0
+- Added Language Change
+- testing github action....
+- Merge branch 'v0.7.0' of https://github.com/globalmsq/msquare-market-wallet-mobile-app into v0.7.0
+- Update pubspec.lock
+- Added Settings Screen Translation
+- testing github action...
+- testing github action..
+- testing github action.
+- testing github action
+-  History and P2P Completed
+- fixed history screen
+- done p2u buying and selling
+- authentications done
+- User session has been added
+- onboard screen status added
+- Google SignIn completed
+- Frontend completed
+- added pop ups
+- history and p2p screen done
+- Reached Settings Screen
+- V2-Front End Completed until HomeScreen
+- Initialized v0.7.0
+- Version 0.6.0 Completed
+- Disconnect Auth Added
+- fixed error message on duplicate entry to wallet
+- completed wallet connections
+- ME-169, ME-181, Added Merge branch '0.6.0' into 0.5.0
+- ME-169, ME-181 Merge branch '0.6.0' into 0.5.0
+- added QR Code using API Calls
+- ME-173 Mobile App UI Fixes
+- ME-166 Fixes
+- ME-166 Fixes
+- ME-166 Fixes
+- ME-154 Back button
+- ME-164 Account Screen Updates
+- ME-160 price api implementation
+- ME-162 Buy MSQP/P2U modal
+- ME-162 Buy MSQP/P2U modal
+- ME-163 Sell MSQP/P2U modal
+- ME-163 Sell MSQP/P2U modal
+- ME-162 Buy MSQP/P2U modal
+- ME-160 Price API Implementation
+- ME-159 Sell P2U Screen UI Updates
+- ME-158 Sell MSQP Screen UI Updates
+- ME-156 Buy MSQP Screen UI Updates
+- ME-157 Buy P2U Screen UI Updates
+- ME-157 Buy P2U Screen UI Updates
+- ME-156 Buy MSQP Screen UI Updates
+- ME-156 Buy MSQP Screen UI Updates
+- ME-152 History Screen UI Updates
+- ME-155 P2P Screen UI Updates
+- ME-154 Goes back to login
+- ME-152 History Screen UI Updates
+- ME-153 Deposit wallet code
+- ME-151 Settings Screen UI and localization
+- ME-151 Settings Screen UI and localization
+- ME-151 Settings Screen UI and localization
+- ME-151 Settings Screen UI and localization
+- ME-149 MSQ-MSQP Screen UI Updates
+- ME-150 MSQP-MSQ Screen UI Updates
+- ME-149 MSQ-MSQP Screen UI Updates
+- ME-150 MSQP-MSQ Screen UI Updates
+- ME-149 MSQ-MSQP Screen UI Updates
+- ME-148 Home Screen UI Fixes
+- ME-145 Registration Screen UI Fixes
+- ME-145 Registration Screen UI Fixes
+- ME-145 Registration Screen UI Fixes
+- ME-144 Login Screen UI Fixes
+- ME-136 FingerPrint Verification
+- ME-143 Wallet Screen UI Fixes
+- ME-136 Finger Print Verification
+- ME-135 History and setting menu
+- ME-133 Fix app icon
+- ME-134 Change version number
+- ME-98 Fixes
+- ME-129 Sell confirm modal
+- ME-130 On app launch goto loginscreen
+- ME-129 Modal in p2p screen
+- ME-131 Goto Login Screen on back press
+- ME-128 Changed Error text
+- ME-126 Ignore order history
+- ME-128 User cannot buy his order
+- ME-126 Ignore Order history
+- ME-127 Clear username and password in msqp-msq
+- ME-125 Clear username and password in msq-msqp
+- ME-124 Buy/sell tab color
+- ME-126 Ignore history
+- ME-107 Switch
+- ME-123 Internet Check
+- ME-122 Font size changed
+- ME-121 Obscure password
+- ME-119 p2p Buy/sell completed orders
+- ME-120 p2p Buy sell
+- ME-117 Username/password in msq-msqp
+- ME-116 Modal overlay in msqp-msq Screen
+- ME-115 Modal overlay in msq-msqp Screen
+- ME-107 FingerPrint Authentication/Account Screen UI
+- ME-109 enabled Fingerprint dialogue in Msq-Msqp Screen UI
+- ME-113 enabled Fingerprint dialogue in Msqp-Msq Screen UI
+- ME-113 enabled Fingerprint dialogue in Msq-Msqp Screen UI
+- ME-112 enter password dialogue in msqp-msq screen
+- ME-111 disable fingerprint dialogue in msqp-msq screen
+- ME-110 enter password dialogue in msq-msqp screen
+- ME-109 enabled Fingerprint dialogue in msq-msqp screen
+- ME-108 Disbaled Fingerprint dialogue in msq-msqp screen
+- ME-107 Fingerprint authentication/Account Screen UI
+- ME-106 Make scan area larger
+- ME-105 Replace reset text with clear
+- ME-104 Remove Dropdown from p2p screen
+- ME-98 Bug fixes
+- ME-103 Logo Change
+- ME-102 Display wallet address in wallet screen
+- ME-101 Sell P2U Screen
+- ME-100 Buy MSQP Screen
+- ME-98 Bug fixes
+- ME-97 Base Url changed
+- ME-96 Bottom navigation Light Theme
+- ME-95 Wallet Screen Light Theme
+- ME-94 Home Screen Light Theme
+- ME-82 Changed Verify Button Color
+- ME-93 Chinese language added
+- ME-82 Msq-Msqp screen
+- ME-80 Wallet screen
+- ME-90 Completed Order History
+- ME-90 Completed Order History
+- ME-82 Msq/Msqp msqp/msq user verification
+- ME-78 Notification screen UI
+- ME-85 Wallet Screen Localisation
+- ME-84  Msqp/Msq screen
+- ME-83  Msq/Msqp screen
+- ME-82 Add Msq/Msqp vice versa in home screen
+- ME-81 Home Screen localisation
+- ME-79 Wallet Screen UI
+- ME-80 Wallet Screen UI
+- ME-79 Home Screen UI
+- ME-77 Bottom Navigation Bar
+- ME-77 Bottom Navigation Bar
+- ME-75 Create ID Screen
+- ME-76 Password Screen
+- ME-75 Create ID Screen
+- ME-74 Login Screen UI
+- ME-71 Splash Screen UI
+- ME-67 History Screen UI
+- ME-51 Buy P2u Screen UI
+- ME-69 Sell MSQP Screen UI
+- ME-69 Sell P2U Screen UI
+- ME-51 Buy P2U Screen
+- ME-67 History Screen
+- ME-67 History Screen
+- ME-47 Scrollview added
+- ME-64 Credit Removed from MSQP
+- ME-66 Credit Removed from MSQ
+- ME-47 Home screen
+- ME-51 Buy P2P screen
+- ME-60 P2P screen
+- ME-47 Home screen UI
+- ME-67 History Screen
+- Home Screen typo changed
+- ME-52 Wallet Screen UI fix
+- ME-66 MSQ to MSQP Exchange Screen
+- ME-66 MSQ to MSQP Exchange Screen
+- ME-66 MSQ to MSQP Exchange Screen
+- ME-64 Exchange Screen Api Integration
+- ME-64 Exchange Screen Api Integration
+- ME-64 Exchange Screen Api Integration
+- ME-64 Exchange Screen Api Integration
+- ME-63 Wallet Screen Api Integration
+- ME-64 Exchange Screen Api Integration
+- ME-63 Wallet Screen Api Integration
+- ME-62 Account Screen
+- ME-60 P2P Screen UI
+- ME-60 P2P Screen UI
+- ME-56 Search Screen UI
+- ME-57 News Screen UI
+- ME-57 News Screen UI
+- ME-56 Search Screen UI
+- ME-56 Search Screen UI
+- ME-38 Blur Effect Added in Wallet Screen
+- ME-47 Blur Effect Added in Home Screen
+- ME-50 Bottom Navigation bar
+- ME-54 QR code Screen
+- ME-53 Notification screen UI
+- ME-52 Wallet screen UI
+- ME-51 Buy P2U screen UI
+- ME-47 Home Screen UI
+- ME-48 Currency Exchange Screen
+- ME-45 Create Password UI
+- ME-45 Create Id UI
+- ME-44 Login Screen UI
+- ME-44 Login Screen UI
+- ME-43 User Profile
+- ME-31 User Profile
+- ME-16 Fetch Tokens
+- ME-16 Fetch Tokens
+- ME-16 Order Completed Implemented
+- ME-16 Order Completed Implemented
+- ME-16 Sell api integrated
+- ME-16 Fixed facebook hashkey issue
+- ME-16 Fixed facebook hashkey issue
+- ME-16 facebook and google login
+- facebook and google login
+- auth controller added
+- login Ui
+- my wallet button added
+- bottomNavigation menu changed
+- bottomNavigation menu items
+- icon changed in home screen
+- home and wallet screen
+- Nft icon removed
+- design modifications
+- flutter screen
